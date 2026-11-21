@@ -21,16 +21,17 @@ def divide ( g, h):
 try:
     num = int(input("Enter a number ( 1 and beyond ) : "))
     
-    num2 = int(input("Enter a second number ( 1 and beyond ) : "))
+    nums = int(input("Enter a second number ( 1 and beyond ) : "))
 
-    print (divide (num, num2))
+    print (divide (num, nums))
     
-    print (sub (num, num2))
+    print ( multiply(num, nums))
+    
+    print (sub (num, nums))
 
-    print (add (num, num2))
+    print (add (num, nums))
 
-    print ( multiply(num, num2))
-
+    print ("La la la la la!")
 except ValueError :
 
     print ("Enter a nummber.")
